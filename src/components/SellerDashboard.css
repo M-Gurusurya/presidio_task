@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Container styles */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  .dashboard-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* List styles */
+  .property-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .property-item {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .property-item p {
+    margin: 5px 0;
+  }
+  
+  /* Form styles */
+  .add-property-form {
+    margin-top: 20px;
+  }
+  
+  .add-property-form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-property-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-property-form button:hover {
+    background-color: #0056b3;
+  }
+  
